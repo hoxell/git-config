@@ -10,6 +10,9 @@ git config --global alias.br branch
 # Formatted and colored oneline logs
 git config --global alias.lg "log --oneline --graph --date=short --pretty='%C(yellow)%h%Creset %Cgreen%s%Creset %cr (%ad) %C(cyan)[%an]%Creset'"
 
+# [Diff]
+git config --global diff.algorithm histogram
+
 # [Core]
 git config --global core.editor vim
 

@@ -19,3 +19,6 @@ git config --global core.autocrlf input
 
 # Whitespace checking
 git config --global core.whitespace tab-in-indent
+
+# [Misc]
+git config --global merge.tool meld

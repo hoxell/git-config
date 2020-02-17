@@ -13,6 +13,9 @@ git config --global alias.lg "log --oneline --graph --branches --date=short --pr
 # [Diff]
 git config --global diff.algorithm histogram
 
+# [Pull]
+git config --global pull.rebase true
+
 # [Core]
 git config --global core.editor vim
 

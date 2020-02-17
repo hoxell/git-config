@@ -20,11 +20,8 @@ git config --global pull.rebase true
 git config --global core.editor vim
 
 # [Formatting]
-# Change CRLF to LF on checkout
-git config --global core.autocrlf input
-
-# Whitespace checking
+git config --global core.autocrlf input  # Change CRLF to LF on checkout
 git config --global core.whitespace tab-in-indent
 
-# [Misc]
+# [Merge tool]
 git config --global merge.tool meld

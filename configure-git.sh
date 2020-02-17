@@ -7,8 +7,8 @@ git config --global alias.co checkout
 
 git config --global alias.br branch
 
-# Formatted and colored oneline logs
-git config --global alias.lg "log --oneline --graph --date=short --pretty='%C(yellow)%h%Creset %Cgreen%s%Creset %cr (%ad) %C(cyan)[%an]%Creset'"
+# Formatted and colored oneline log
+git config --global alias.lg "log --oneline --graph --branches --date=short --pretty='%C(yellow)%h%Creset %C(auto)%d%Creset %Cgreen%s%Creset %cr (%ad) %C(cyan)[%an]%Creset'"
 
 # [Diff]
 git config --global diff.algorithm histogram

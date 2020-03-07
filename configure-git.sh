@@ -25,3 +25,4 @@ git config --global core.whitespace tab-in-indent
 
 # [Merge tool]
 git config --global merge.tool meld
+git config --global mergetool.meld.cmd 'meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"'

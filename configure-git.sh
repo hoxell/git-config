@@ -13,6 +13,9 @@ git config --global alias.lg "log --oneline --graph --branches --date=short --pr
 # [Diff]
 git config --global diff.algorithm histogram
 
+git config --global diff.tool meld
+git config --global difftool.meld.cmd 'meld "$LOCAL" "$REMOTE"'
+
 # [Pull]
 git config --global pull.rebase true
 

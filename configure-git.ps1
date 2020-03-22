@@ -28,4 +28,4 @@ git config --global core.whitespace tab-in-indent
 # [Merge tool]
 git config --global merge.tool meld
 git config --global mergetool.meld.cmd '\"C:\Program Files (x86)\Meld\Meld.exe\" $LOCAL $MERGED $REMOTE --output $MERGED'
-git config --global mergetool.meld.keepBackup false
+git config --global mergetool.keepBackup false

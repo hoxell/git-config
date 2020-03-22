@@ -6,6 +6,7 @@ git config --global alias.co checkout
 git config --global alias.br branch
 git config --global alias.wd "diff --word-diff"
 git config --global alias.wds "diff --word-diff --staged"
+git config --global alias.mt mergetool
 
 # Formatted and colored oneline log
 git config --global alias.lg "log --oneline --graph --branches --date=short --pretty='%C(yellow)%h%Creset %C(auto)%d%Creset %Cgreen%s%Creset %cr (%ad) %C(cyan)[%an]%Creset'"
